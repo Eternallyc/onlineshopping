@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="alipay-sdk-java20170324180803">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-sdk-java20170324180803.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-beanutils-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-codec-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-collections-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-lang-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ezmorph-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpclient-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpcore-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpmime-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/java-json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/json-lib-2.4-jdk15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/json-simple-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.44-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-3.6-20091214.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/java-json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-sdk-java20170324180803-source.jar!/com/alipay/api" />
+    </SOURCES>
+  </library>
+</component>

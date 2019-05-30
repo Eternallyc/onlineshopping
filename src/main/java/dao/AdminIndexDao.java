@@ -5,13 +5,13 @@ import bean.Weekly;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
-import utils.JdbcUtil;
+import utils.C3P0Utils;
 
 import java.sql.SQLException;
 import java.util.List;
 
 public class AdminIndexDao {
-    QueryRunner qr = JdbcUtil.getQueryRunner();
+    QueryRunner qr = C3P0Utils.getQueryRunner();
     /**
      * 得到收藏数
      */

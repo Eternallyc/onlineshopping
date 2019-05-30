@@ -6,6 +6,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
+import utils.C3P0Utils;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -14,8 +15,7 @@ import java.util.List;
  *完成收藏功能的增删查功能
  */
 public class FavoriteDao {
-    ComboPooledDataSource dataSource=new ComboPooledDataSource();
-    QueryRunner queryRunner=new QueryRunner(dataSource);
+    QueryRunner queryRunner= C3P0Utils.getQueryRunner();
 
     /**
      * 查询功能

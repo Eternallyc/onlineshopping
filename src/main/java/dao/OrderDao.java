@@ -3,13 +3,13 @@ package dao;
 import bean.OrderInfo;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
-import utils.JdbcUtil;
+import utils.C3P0Utils;
 
 import java.sql.SQLException;
 import java.util.List;
 
 public class OrderDao {
-    QueryRunner qr = JdbcUtil.getQueryRunner();
+    QueryRunner qr = C3P0Utils.getQueryRunner();
     //支付成功后保存订单
     public void saveorder(String orderid,String cid,int sum)throws SQLException {
         String sql = "insert into orderid(orderid,cid,sum) values(?,?,?)";

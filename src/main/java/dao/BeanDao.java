@@ -5,14 +5,14 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
-import utils.JdbcUtil;
+import utils.C3P0Utils;
 import utils.PageBean;
 
 import java.sql.SQLException;
 import java.util.List;
 
 public class BeanDao {
-    QueryRunner qr = JdbcUtil.getQueryRunner();
+    QueryRunner qr = C3P0Utils.getQueryRunner();
     //得到总商品数
     public int getTotalRows(){
         String sql = "select count(*) from goods";

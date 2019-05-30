@@ -4,9 +4,32 @@ package utils;
 
 
 
-import java.sql.*;
+import bean.Cart;
+import com.alibaba.druid.util.JdbcUtils;
+import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.junit.jupiter.api.Test;
 
-public class Test {
+import java.sql.*;
+import java.util.List;
+
+public class Test1 {
+
+    @Test
+    public void testAddUser(){
+        try {
+            //2.从池子中获取连接
+            QueryRunner qr = C3P0Utils.getQueryRunner();
+           List<Cart> list= qr.query("select * from cart",new BeanListHandler<>(Cart.class));
+            System.out.println(list.size());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+
+        }
+    }
+
+
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         //jdbc:mysql://主机名或IP抵制：端口号/数据库名?useUnicode=true&characterEncoding=UTF-8&useSSL=true
         String URL="jdbc:mysql://39.108.73.162:3306/shop?serverTimezone=GMT%2B8";

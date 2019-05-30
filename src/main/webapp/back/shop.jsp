@@ -48,9 +48,11 @@
     @SuppressWarnings("unchecked")
     List<Goods> goodsList = (List<Goods>) request.getAttribute("goodslist");
 
+
 %>
 
 <script>
+
     function DrawImge(img, width, height) {
         img.width = width;
         img.height = height;

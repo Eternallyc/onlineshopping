@@ -40,7 +40,7 @@ public class UserDao {
     /**
      * @method:register 用户注册
      * @date: 2017/7/7
-     * @params:[name, password, email]
+     * @params:
      * @return: boolean
      */
 
